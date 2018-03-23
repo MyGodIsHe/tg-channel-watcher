@@ -1,7 +1,7 @@
 # tg-channel-watcher
-[![telethon version](https://img.shields.io/badge/telethon-v0.16.1.2-blue.svg)](https://github.com/LonamiWebs/Telethon)
+[![telethon version](https://img.shields.io/pypi/v/Telethon.svg?label=Telethon)](https://github.com/LonamiWebs/Telethon)
 [![license](https://img.shields.io/github/license/xates/tg-channel-watcher.svg)](LICENSE)
-[![last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/xates/tg-channel-watcher/commits/master)
+[![last commit](https://img.shields.io/github/last-commit/xates/tg-channel-watcher.svg)](https://github.com/xates/tg-channel-watcher/commits/master)
 
 ## Introduction
 
@@ -24,7 +24,7 @@ list of channels, except for the formats specified in a blacklist.
 
 ## Getting started
 
-After you have cloned the repository, run the command `pip3 install -r
+After you have cloned the repository, run the command `pip3 install -Ur
 requirements.txt` to install all the required dependencies.
 You may want to use a [virtual environment](http://bit.ly/1fhx5mq) for that.
 
