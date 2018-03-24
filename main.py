@@ -21,7 +21,7 @@ else:
     sys.exit("Error: command line arguments are not valid.")
 
 config = ConfigParser()
-config.read("config.ini")
+config.read(config_file)
 
 api_id = config.getint("telethon", "api_id")
 api_hash = config.get("telethon", "api_hash")
