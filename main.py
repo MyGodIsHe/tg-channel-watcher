@@ -151,6 +151,7 @@ if __name__ == '__main__':
                     location = client.download_media(event.message,
                                                      config.download_directory)
                     logger.info("{} downloaded to {}".format(name, location))
+                    break
 
     print("Listening for new messages...")
     client.idle()
